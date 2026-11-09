@@ -1,0 +1,9 @@
+langchain-core
+langchain-openai
+langchain-neo4j
+langchain-experimental
+langchain-text-splitters
+langgraph
+neo4j
+streamlit
+python-dotenv
