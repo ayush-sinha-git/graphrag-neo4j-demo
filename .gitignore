@@ -1,0 +1,26 @@
+# Secrets and local config
+.env
+.certs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Caches
+.tiktoken_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor
+.vscode/
+
+# Neo4j (if run outside Docker)
+data/
+logs/
+
+# Scratch/exploratory notebooks (may contain hardcoded credentials — never commit)
+to_test_llm_api.ipynb
+to_test_neo4j_connection.ipynb
